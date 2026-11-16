@@ -20,5 +20,11 @@ ul{
 a{
     text-decoration: none;
     color: #fafafa;
-
+}
+.titu{
+    border: 15px;
+    border-color: #fafafa;
+    padding-left: 15px;
+    
+    
 }
