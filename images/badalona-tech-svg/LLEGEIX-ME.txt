@@ -1,0 +1,12 @@
+BADALONA TECH 2027 — ICONES SVG
+
+Recreacions vectorials basades en els models visuals de l’examen. No són extraccions exactes dels píxels de les captures.
+
+Logo per a capçalera fosca: logo-robot-blanco.svg
+Logo per a fons clar: logo-robot-azul.svg
+Icones blaves: ordinador, calendari, correu, ajuntament, enllac-extern, fletxa-dreta, fletxa-esquerra, clip, cadeneta, escut-seguretat, codi-web, robotica, ubicacio i usuari.
+
+Exemple HTML:
+<img src="img/logo-robot-blanco.svg" alt="Logotip de Badalona Tech" width="64">
+
+Els SVG tenen fons transparent i es poden escalar sense perdre qualitat.
