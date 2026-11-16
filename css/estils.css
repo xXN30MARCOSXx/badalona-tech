@@ -5,13 +5,12 @@ header{
     display: flex;
     align-items: center;
 }
-
 .ini{
     background-color: #319ffd;
     padding: 10px;
     border-radius: 15px;
 }
-ul{
+.esp{
     list-style: none;
     display: flex;
     align-items: center;
@@ -22,9 +21,24 @@ a{
     color: #fafafa;
 }
 .titu{
-    border: 15px;
-    border-color: #fafafa;
-    padding-left: 15px;
+    border-radius: 30px;
+    border-left-color: #fafafa;
+    padding-right: 50%;
     
-    
+}
+table{
+ width: 50%;
+            border-collapse: collapse;
+            border: 1px solid black;
+}
+th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+footer>a{
+    color: #000000;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(0, 183, 255);
 }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripcio</title>
+    <link rel="stylesheet" href="css/estils.css">
+</head>
+<body>
+    <header>
+        <div>
+                <img src="images/Captura de pantalla 2026-11-16 113201.png" alt="">
+            </div>
+                <div class="titu">
+                    <h1>Badalona Tech 2027</h1>
+                    <P>Fira de tecnologia, informació i innovació</P>
+        </div>
+            <div>
+                <nav>
+                    <ul class="esp">
+                        <li><a  class="ini" href="index.html">Inici</a></li>
+                        <li><a href="activitats.html">Activitats</a></li>
+                        <li><a href="horaris.html">Horaris</a></li>
+                        <li><a href="inscripcio.html">Inscripció</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <main>
+        <form action="mi-casa-xd.com">
+            <legend>
+            <label for="nom complet">Nom complet</label>
+            <input type="text" required><br>
+            <label for="correu electrònic">Correu electrònic</label>
+            <input type="email" required><br>
+            <label for="telefon">Telèfon</label>
+            <input type="tel">
+            </legend><br>
+            <label for="activitat">Activitat</label>
+            <select name="opcions" id="activitats-seleccio">
+                <option value="taller">Taller de robòtica </option>
+                <option value="Crea">Crea la teva primera web</option>
+                <option value="ciberseguretat">Ciberseguretat</option>
+            </select><br>
+            <label for="assistencia">Dia d'assistència: Dissapte o Diumenge</label><br>
+            <label for="dissapte">Dissapte</label>
+            <input type="radio" required>
+            <label for="diumenge">Diumenge</label>
+            <input type="radio" required><br>
+            <label for="observacions">Observacions</label>
+            <textarea name="obser" id="observa"></textarea><br>
+            <label for="rebre-informacio">Rebre informació</label>
+            <input type="checkbox"><br>
+            <label for="condicions">Acceptar condicions</label>
+            <input type="checkbox" required><br>
+            <button type="submit">Enviar inscripció</button><br>
+            <button type="reset">Netejar</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
